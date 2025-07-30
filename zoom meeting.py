@@ -5,13 +5,13 @@ import os
 from requests.auth import HTTPBasicAuth
 
 # Zoom API credentials
-CLIENT_ID = 'dWunwTzdQ9aqmdCaRBcpwd'
-CLIENT_SECRET = 'EUF4dk3xvOGfAWzf8tgxEGp8j1bNRVna'
-REDIRECT_URI = 'https://go.pixeltests.com/'
+CLIENT_ID = 'your_client_id'
+CLIENT_SECRET = 'your_client_secret_key'
+REDIRECT_URI = 'your_redirect_url'
 
 # Zoom API endpoints
-TOKEN_URL = 'https://zoom.us/oauth/token'
-MEETING_URL = 'https://api.zoom.us/v2/users/me/meetings'
+TOKEN_URL = 'Url'
+MEETING_URL = 'url'
 
 # Token file
 TOKEN_FILE = 'zoom_tokens.json'
